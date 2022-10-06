@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-width: 100%;
-height: 45vw;
-color:white;
+height:10vw;
 position:relative;
-bottom: 5vw;
+top: 44.5vw;
+color:white;
 `

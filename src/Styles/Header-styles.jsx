@@ -2,12 +2,8 @@ import styled from "styled-components";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 export const Section = styled.section`
-display:flex;
-border:solid black;
 width:100%;
-height:16.5vw;
-background-color:#540d6e;
-border:solid;
+height:12vw;
 `
 
 export const DivOne = styled.div`
@@ -17,7 +13,7 @@ color:white;
 font-family: 'Jost';
 `
 export const Image = styled.img`
-width:20vw;
+width: 12vw;
 `
 
 export const H1 = styled.h1`
@@ -29,7 +25,8 @@ display:flex;
 justify-content:space-evenly;
 font-family: 'Jost';
 padding-left:28vw;
-font-size:2.5vw;
+position:relative;
+bottom: 5vw;
 `
 
 export const Ul = styled.ul`
@@ -44,4 +41,3 @@ export const Links = styled(Link)`
 text-decoration:none;
 color:white;
 `
-

@@ -1,9 +1,11 @@
 import React from "react";
+import * as S from "../Styles/AboutMe-style"
 
 export default function AboutMe(){
     return(
-        <section>
+        <S.Section>
             <h1>sera onde vai</h1>
-        </section>
+            <p>cade?</p>
+        </S.Section>
     )
 }

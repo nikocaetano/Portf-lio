@@ -1,6 +1,7 @@
 import React from "react";
+import Footer from "./Componentes/Footer";
 import Header from "./Componentes/Header";
-import Main from "./Componentes/Main";
+import Rotas from "./Rotas/Rotas";
 import { GlobalStyle } from "./Styles/GlobalStyled";
 
 export default function App(){
@@ -8,7 +9,7 @@ export default function App(){
     <section>
       <GlobalStyle />
       <Header />
-      <Main />
+      <Rotas/>
     </section>
   )
 }
