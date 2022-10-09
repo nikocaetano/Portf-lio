@@ -7,36 +7,37 @@ import Home from "../Componentes/Home";
 import Menu from "../images/hamburger.png"
 import * as S from "../Styles/Header-styles"
 
+
 export default function Rotas(){
     const [open, setOpen] = useState(true);
     const Modo = () => {
         setOpen(!open)
     }
-
+ 
     return(
         <section>
             <BrowserRouter>
             {open &&
             <S.Nav>
             <S.Ul>
-                <li>
+                <S.Li>
                     <S.Links to="/">Home</S.Links>
-                </li>
-                <li>
+                </S.Li>
+                <S.Li>
                     <S.Links to="/AboutMe">About Me</S.Links>
-                </li>
-                <li>
+                </S.Li>
+                <S.Li>
                     <S.Links to="/Works">Works</S.Links>
-                </li>
-                <li>
+                </S.Li>
+                <S.Li>
                     <S.Links to="/Ods">Ods</S.Links>
-                </li>
+                </S.Li>
             </S.Ul>
         </S.Nav>
             }
-            <div>
-                <S.ImgMenu onClick={() => {Modo()}} src={Menu}/>
-            </div>
+            <figure  onClick={() => {Modo()}} >
+                <S.ImgMenu src={Menu}/>
+            </figure>
             
                 <Routes>
                     <Route path="/" element={<Home />} />
