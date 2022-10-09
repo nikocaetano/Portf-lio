@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "../Styles/Header-styles"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-import Logo from "../Styles/logo.png"
+import Logo from "../images/logo.png"
 
 
 export default function Header() {
