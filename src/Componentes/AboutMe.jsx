@@ -1,11 +1,14 @@
 import React from "react";
 import * as S from "../Styles/AboutMe-style"
+import Photo from "../images/photo.jpg"
 
 export default function AboutMe(){
     return(
         <S.Section>
-            <h1>sera onde vai</h1>
-            <p>cade?</p>
+            <p>Cade essa bodega</p>
+            <figure>
+                <img src={Photo}/>
+            </figure>
         </S.Section>
     )
 }

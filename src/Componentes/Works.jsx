@@ -11,36 +11,66 @@ import { BrowserRouter, Link } from "react-router-dom";
 export default function Works() {
     return (
         <S.Section>
-            <figure>
-                <a href="https://nikocaetano.github.io/Desafio-final---Crespos/" target="_blank">
-                    <S.Image src={Cachos} />
-                </a>
-            </figure>
-            <figure>
-                <a href="https://desafio-calculadora.vercel.app/" target="_blank">
-                    <S.Image src={Calc} />
-                </a>
-            </figure>
-            <figure>
-                <a href="https://desafio-hp.vercel.app/" target="_blank">
-                    <S.Image src={Hp} />
-                </a>
-            </figure>
-            <figure>
-                <a href="https://desafio-to-do-hooks.vercel.app/" target="_blank">
-                    <S.Image src={TodoH} />
-                </a>
-            </figure>
-            <figure>
-                <a href="https://adoptpets.vercel.app/" target="_blank">
-                    <S.Image src={Dogs} />
-                </a>
-            </figure>
-            <figure>
-                <a href="https://nikoflix.vercel.app/" target="_blank">
-                    <S.Image src={Movies} />
-                </a>
-            </figure>
+
+            <S.H1>Conheça meus projetos:</S.H1>
+
+            <S.SecTwo>
+                <S.Card>
+                    <a href="https://nikocaetano.github.io/Desafio-final---Crespos/" target="_blank">
+                        <S.Image src={Cachos} />
+                    </a>
+                    <S.Caixa>
+                        <S.CardHtml>HTML5</S.CardHtml>
+                        <S.CardCss>CSS3</S.CardCss>
+                    </S.Caixa>
+                </S.Card>
+                <S.Card>
+                    <a href="https://desafio-calculadora.vercel.app/" target="_blank">
+                        <S.Image src={Calc} />
+                    </a>
+                    <S.Caixa>
+                        <S.CardJs>JS</S.CardJs>
+                        <S.CardReact>REACT</S.CardReact>
+                    </S.Caixa>
+                </S.Card>
+                <S.Card>
+                    <a href="https://desafio-hp.vercel.app/" target="_blank">
+                        <S.Image src={Hp} />
+                    </a>
+                    <S.Caixa>
+                        <S.CardJs>JS</S.CardJs>
+                        <S.CardReact>REACT</S.CardReact>
+                    </S.Caixa>
+                </S.Card>
+                <S.Card>
+                    <a href="https://desafio-to-do-hooks.vercel.app/" target="_blank">
+                        <S.Image src={TodoH} />
+                    </a>
+                    <S.Caixa>
+                        <S.CardJs>JS</S.CardJs>
+                        <S.CardReact>REACT</S.CardReact>
+                    </S.Caixa>
+                </S.Card>
+                <S.Card>
+                    <a href="https://adoptpets.vercel.app/" target="_blank">
+                        <S.Image src={Dogs} />
+                    </a>
+                    <S.Caixa>
+                        <S.CardJs>JS</S.CardJs>
+                        <S.CardReact>REACT</S.CardReact>
+                    </S.Caixa>
+                    <S.Text>Site ilustrativo para uma feira de adoção online</S.Text>
+                </S.Card>
+                <S.Card>
+                    <a href="https://nikoflix.vercel.app/" target="_blank">
+                        <S.Image src={Movies} />
+                    </a>
+                    <S.Caixa>
+                        <S.CardJs>JS</S.CardJs>
+                        <S.CardReact>REACT</S.CardReact>
+                    </S.Caixa>
+                </S.Card>
+            </S.SecTwo>
         </S.Section>
     )
 }
