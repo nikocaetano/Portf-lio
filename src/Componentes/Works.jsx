@@ -12,7 +12,7 @@ export default function Works() {
     return (
         <S.Section>
 
-            <S.H1>Conheça meus projetos:</S.H1>
+            <S.H1>Get to know my projects</S.H1>
 
             <S.SecTwo>
                 <S.Card>
