@@ -12,6 +12,9 @@ export default function AboutMe() {
         <S.Section>
             <S.Box>
                 <S.H1>Get know me</S.H1>
+                <S.Figure>
+                    <S.Imagem src={Photo} />
+                </S.Figure>
                 <S.Text>Hello, my name is Nikolas Caetano, I am 24 years old and I am
                     from Mogi das Cruzes, São Paulo. I have a degree in Tourism
                     from Mato Grosso State University and in the beginning of
@@ -21,7 +24,7 @@ export default function AboutMe() {
                     and now I have my portfolio available with all my projects.
                     Get in touch with me through my social networks.
                 </S.Text>
-                <S.Text>Xoxo, Nikolas.</S.Text>
+                <S.Sign>Xoxo, Nikolas.</S.Sign>
                 <S.Networks>
                     <a href="https://www.instagram.com/nikocaetano/" target="_blank">
                         <S.Redes src={Insta} alt="Icone Instagram" />
