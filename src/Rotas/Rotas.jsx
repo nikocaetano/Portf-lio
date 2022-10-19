@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import AboutMe from "../Componentes/AboutMe";
-import Ods from "../Componentes/Ods";
 import Works from "../Componentes/Works";
 import Home from "../Componentes/Home";
 import Menu from "../images/hamburger.png"
@@ -28,10 +27,7 @@ export default function Rotas() {
                             </S.Li>
                             <S.Li>
                                 <S.Links to="/Works">Works</S.Links>
-                            </S.Li>
-                            <S.Li>
-                                <S.Links to="/Ods">Ods</S.Links>
-                            </S.Li>
+                            </S.Li>                           
                         </S.Ul>
                     </S.Nav>
                 }
@@ -43,7 +39,6 @@ export default function Rotas() {
                     <Route path="/" element={<Home />} />
                     <Route path="/AboutMe" element={<AboutMe />} />
                     <Route path="/Works" element={<Works />} />
-                    <Route path="/Ods" element={<Ods />} />
                 </Routes>
             </BrowserRouter>
         </section>
