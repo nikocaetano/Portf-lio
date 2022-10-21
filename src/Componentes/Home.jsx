@@ -10,10 +10,9 @@ import Curriculo from "../images/curriculo.png"
 
 export default function Home(){
     return(
-        <S.Section>
-            <S.H1>Hi, i'm Nikolas Caetano, Front End developer</S.H1>
-            <S.Image src={Imagem}/>
+        <S.Section>         
             <S.Networks>
+                    <S.H1>Hi, i'm Nikolas Caetano, Front End developer</S.H1>
                     <a href="https://www.instagram.com/nikocaetano/" target="_blank">
                         <S.Redes src={Insta} alt="Icone Instagram" />
                     </a>
@@ -30,6 +29,7 @@ export default function Home(){
                         <S.Redes src={Curriculo} alt="Icone Curriculo" />
                     </a>
                 </S.Networks>
+                <S.Image src={Imagem}/>
         </S.Section>
     )
 }

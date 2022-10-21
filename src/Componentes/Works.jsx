@@ -5,6 +5,7 @@ import Hp from "../images/hp.jpg"
 import TodoH from "../images/todoHooks.jpg"
 import Dogs from "../images/apiDogs.jpg"
 import Movies from "../images/apiMovies.jpg"
+import Ods from "../images/ods.jpg"
 import * as S from "../Styles/Works-styles"
 import { BrowserRouter, Link } from "react-router-dom";
 
@@ -13,6 +14,19 @@ export default function Works() {
         <S.Section>
             <S.H1>Get to know my projects</S.H1>
             <S.SecTwo>
+            <S.Card>
+                    <a href="https://ods-mogi.vercel.app/" target="_blank">
+                        <S.Image src={Ods} />
+                    </a>
+                    <S.Caixa>
+                        <S.CardJs>JS</S.CardJs>
+                        <S.CardReact>REACT</S.CardReact>
+                    </S.Caixa>
+                    <S.Text>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below 
+                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum 
+                        et Malorum" by Cicero are also reproduced in their exact original form, 
+                        accompanied by English versions from the 1914 translation by H. Rackham.</S.Text>
+                </S.Card>
                 <S.Card>
                     <a href="https://nikocaetano.github.io/Desafio-final---Crespos/" target="_blank">
                         <S.Image src={Cachos} />

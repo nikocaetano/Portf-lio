@@ -8,6 +8,10 @@ import Google from "../images/google.png"
 import Curriculo from "../images/curriculo.png"
 
 export default function AboutMe() {
+    const Send = Object.freeze({
+        email: "mailto:weecaetano@gmail.com"
+    })
+
     return (
         <S.Section>
             <S.Box>
@@ -35,7 +39,7 @@ export default function AboutMe() {
                     <a href="https://github.com/nikocaetano" target="_blank">
                         <S.Redes src={GitHub} alt="Icone GitHUb" />
                     </a>
-                    <a href="" target="_blank">
+                    <a href={Send.email} target="_blank" rel="noopener noreferrer">
                         <S.Redes src={Google} alt="Icone Email" />
                     </a>
                     <a href="" target="_blank">

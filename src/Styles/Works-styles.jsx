@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Section = styled.section`
  display: flex;
- height:135vh;
+ height:190vh;
  flex-direction:column;
  font-family: 'Jost';
  @media only screen and (min-width:300px) and (max-width:600px){
-    height: 400vh;
+    height: 500vh;
 }
 `
 
@@ -23,7 +23,7 @@ export const SecTwo = styled.section`
 display: flex;
 flex-wrap:wrap;
 justify-content:space-evenly;
-height: 130vh;
+height: 190vh;
 @media only screen and (min-width:300px) and (max-width:600px){
     flex-direction: column;
     height: 500vh;
