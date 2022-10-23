@@ -22,14 +22,25 @@ width: 40vw;
 font-size: 1.5em;
 padding-bottom: 5vw;
 @media only screen and (min-width:300px) and (max-width:600px){
-   width: 100vw;
+   width: 80vw;
 }
 `
+
+
 
 export const Image = styled.img`
 width: 45vw;
 @media only screen and (min-width:300px) and (max-width:600px){
+    display:none;
+}
+`
+
+export const ImageRes = styled.img`
+width: 45vw;
+display:none;
+@media only screen and (min-width:300px) and (max-width:600px){
     width: 80vw;
+    display: initial;
 }
 `
 
