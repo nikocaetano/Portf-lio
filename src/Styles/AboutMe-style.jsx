@@ -11,7 +11,6 @@ font-family:'Jost';
 
 export const Image = styled.img`
 width: 30vw;
-height: 45vw;
 border-radius:15px;
 box-shadow: 1px 2px 10px 1px #000;  
 @media only screen and (min-width:300px) and (max-width:600px){

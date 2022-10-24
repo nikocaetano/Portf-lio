@@ -8,7 +8,7 @@ import * as S from "../Styles/Header-styles"
 
 
 export default function Rotas() {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState();
     const Modo = () => {
         setOpen(!open)
     }
@@ -44,24 +44,3 @@ export default function Rotas() {
         </section>
     )
 }
-
-/*const Rota = ({ rotaZero, rotaOne, rotaTwo, rotaThree }) => {
-    return (
-     <S.Nav>
-         <S.Ul>
-            <S.Li>
-                <S.Links to="/">Home</S.Links>
-            </S.Li>
-            <S.Li>
-                <S.Links to="/AboutMe">About Me</S.Links>
-            </S.Li>
-            <S.Li>
-                <S.Links to="/Works">Works</S.Links>
-            </S.Li>
-            <S.Li>
-                <S.Links to="/Ods">Ods</S.Links>
-            </S.Li>
-        </S.Ul>
-    </S.Nav>
-    )
-}*/

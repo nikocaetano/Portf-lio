@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
  display: flex;
- height:190vh;
+ height:210vh;
  flex-direction:column;
  font-family: 'Jost';
  @media only screen and (min-width:300px) and (max-width:600px){
@@ -23,7 +23,7 @@ export const SecTwo = styled.section`
 display: flex;
 flex-wrap:wrap;
 justify-content:space-evenly;
-height: 190vh;
+height: 210vh;
 @media only screen and (min-width:300px) and (max-width:600px){
     flex-direction: column;
     height: 500vh;

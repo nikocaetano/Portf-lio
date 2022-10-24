@@ -53,17 +53,15 @@ justify-content:space-evenly;
 align-items:flex-end;
 @media only screen and (min-width:300px) and (max-width:600px){
     flex-direction:column;
-    position:relative;
-    top:4vw;
-    left: 27vw;
+    position:absolute;  
+    right:0;
+    top: 5vw;
     text-align:center;
-    background-color:#240046;
-    width:18vw; 
+    background-color: #240046;
+    width:100%;
     align-items:center;
     height: 25vw;
     font-size: 0.8em;
-    z-index:1000;
-    
 }
 `
 export const Li = styled.li`

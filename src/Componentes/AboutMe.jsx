@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "../Styles/AboutMe-style"
-import Photo from "../images/photo.jpg"
+import Photo from "../images/foto.jpg"
 import Insta from "../images/instagram.png"
 import Linkedin from "../images/linkedin.png"
 import GitHub from "../images/github.png"
